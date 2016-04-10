@@ -83,9 +83,10 @@ public class HttpHelper {
 
     /**
      * Execute the actual http request and return the response
+     *
      * @param request http request to be executed
      * @return HttpResponse response of the request
-     * @throws IOException You know things always go right .. shit happens.
+     * @throws IOException You know things don't always go right .. shit happens.
      */
     private HttpResponse execute(HttpRequestBase request) throws IOException {
         try {
